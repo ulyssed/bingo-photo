@@ -1,6 +1,6 @@
 // --- CONFIGURATION --- 
-const SUPABASE_PROJECT_ID = "zgdjtfyidavwtphfrrvf";
-const SUPABASE_KEY = "sb_publishable_4sW5qMxacEbyWez5TruoAQ_lCQAfJl5";
+const SUPABASE_PROJECT_ID = "dqnzebxwlswrpyqcykbc";
+const SUPABASE_KEY = "sb_publishable_0ps5U_P0XI5_p5DcfV5bnQ_Fd7BQABh";
 const supabaseClient = supabase.createClient(`https://${SUPABASE_PROJECT_ID}.supabase.co`, SUPABASE_KEY);
 
 let currentUser = null;
