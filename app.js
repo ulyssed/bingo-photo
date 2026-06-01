@@ -7,13 +7,13 @@ let currentUser = null;
 let selectedIdx = null;
 const bingoItems = [
     // { title: "Un chien dans une voiture", emoji: "🐶🚗" },
-    { title: "Du love chez les Tapages", emoji: "❤️" },
-    { title: "Tes pieds dans les chaussures d'un autre Tapage", emoji: "👞" },
-    { title: "Un Tapage pas encore couché au lever du soleil", emoji: "🥱" },
-    { title: "Un selfie grimace avec un autre Tapage", emoji: "🥸" },
-    { title: "Un repas de croûtard", emoji: "🐀" },
-    { title: "Un personnage de Shrek dans la vraie vie", emoji: "🧌👹" },
-    { title: "Un panneau qui fait penser aux Tapages", emoji: "🪧" },
+    // { title: "Du love chez les Tapages", emoji: "❤️" },
+    // { title: "Tes pieds dans les chaussures d'un autre Tapage", emoji: "👞" },
+    // { title: "Un Tapage pas encore couché au lever du soleil", emoji: "🥱" },
+    // { title: "Un selfie grimace avec un autre Tapage", emoji: "🥸" },
+    // { title: "Un repas de croûtard", emoji: "🐀" },
+    // { title: "Un personnage de Shrek dans la vraie vie", emoji: "🧌👹" },
+    // { title: "Un panneau qui fait penser aux Tapages", emoji: "🪧" },
     { title: "Une boîte d'Oeufs (ceux qui se mangent)", emoji: "🥚" },
     { title: "Un Tapage qui cherche quelque chose qu'iel a perdu", emoji: "👓" },
     { title: "Le sosie d'un Tapages", emoji: "👥" },
@@ -31,7 +31,15 @@ const bingoItems = [
     { title: "Un tout petit animal", emoji: "🪳" },
     { title: "Un selfie de pupitre (Sissa tu peux venir avec les Sax)", emoji: "👯‍♂️" },
     { title: "Un Tapage qui dort au soleil", emoji: "😴🌞" },
+    
     { title: "Un Zotres fait l'hippopotame", emoji: "🦛"},
+    { title: "Canuchier doublement rempli", emoji: "🍻"},
+    { title: "Contrôle des slips" , emoji: "🩲👮"},
+    { title: "Pieds nus", emoji: "🦶"},
+    { title: "Cheveux de riche", emoji: "👨‍🦳👱‍♀️💶"},
+    { title: "Des Chevaliers de la Night", emoji: "🎠🌙"},
+    { title: "Zôtres en communication avec Jerry, tululu tululu", emoji: "👨‍🦲📳"},
+    
 ];
 
 // --- INITIALISATION ---
