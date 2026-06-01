@@ -6,7 +6,7 @@ const supabaseClient = supabase.createClient(`https://${SUPABASE_PROJECT_ID}.sup
 let currentUser = null;
 let selectedIdx = null;
 const bingoItems = [
-    { title: "Un chien dans une voiture", emoji: "🐶🚗" },
+    // { title: "Un chien dans une voiture", emoji: "🐶🚗" },
     { title: "Du love chez les Tapages", emoji: "❤️" },
     { title: "Tes pieds dans les chaussures d'un autre Tapage", emoji: "👞" },
     { title: "Un Tapage pas encore couché au lever du soleil", emoji: "🥱" },
@@ -30,7 +30,8 @@ const bingoItems = [
     { title: "Un tire sur mon doigt", emoji: "👉🤏" },
     { title: "Un tout petit animal", emoji: "🪳" },
     { title: "Un selfie de pupitre (Sissa tu peux venir avec les Sax)", emoji: "👯‍♂️" },
-    { title: "Un Tapage qui dort au soleil", emoji: "😴🌞" }
+    { title: "Un Tapage qui dort au soleil", emoji: "😴🌞" },
+    { title: "Un Zotres fait l'hippopotame", emoji: "🦛"},
 ];
 
 // --- INITIALISATION ---
