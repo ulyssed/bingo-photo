@@ -6,6 +6,8 @@ const supabaseClient = supabase.createClient(`https://${SUPABASE_PROJECT_ID}.sup
 let currentUser = null;
 let selectedIdx = null;
 const bingoItems = [
+
+    // Leg des Tapages
     // { title: "Un chien dans une voiture", emoji: "🐶🚗" },
     // { title: "Du love chez les Tapages", emoji: "❤️" },
     // { title: "Tes pieds dans les chaussures d'un autre Tapage", emoji: "👞" },
@@ -14,31 +16,59 @@ const bingoItems = [
     // { title: "Un repas de croûtard", emoji: "🐀" },
     // { title: "Un personnage de Shrek dans la vraie vie", emoji: "🧌👹" },
     // { title: "Un panneau qui fait penser aux Tapages", emoji: "🪧" },
-    { title: "Une boîte d'Oeufs (ceux qui se mangent)", emoji: "🥚" },
-    { title: "Un Tapage qui cherche quelque chose qu'iel a perdu", emoji: "👓" },
-    { title: "Le sosie d'un Tapages", emoji: "👥" },
-    { title: "Un selfie avec un animal", emoji: "👤🐒" },
-    { title: "Ton magnifique vernis", emoji: "💅" },
-    { title: "Un Tapage qui ne joue pas du bon instrument", emoji: "🎷🎺🖇️🥁" },
-    { title: "Du munster (le fromage)", emoji: "🧀" },
-    { title: "Deux Tapages sur un vélo", emoji: "👥🚴" },
-    { title: "Un batiment historique", emoji: "🏦" },
-    { title: "Un Tapage en claquettes/tongs + chaussettes", emoji: "🩴🧦" },
-    { title: "Une paréidolie", emoji: "😀" },
-    { title: "Le sticker Tapages dans un lieu insolite", emoji: "🧐" },
-    { title: "Météo émotionnelle", emoji: "🌤️" },
-    { title: "Un tire sur mon doigt", emoji: "👉🤏" },
-    { title: "Un tout petit animal", emoji: "🪳" },
-    { title: "Un selfie de pupitre (Sissa tu peux venir avec les Sax)", emoji: "👯‍♂️" },
-    { title: "Un Tapage qui dort au soleil", emoji: "😴🌞" },
-    
-    { title: "Un Zotres fait l'hippopotame", emoji: "🦛"},
+    // { title: "Une boîte d'Oeufs (ceux qui se mangent)", emoji: "🥚" },
+    // { title: "Un Tapage qui cherche quelque chose qu'iel a perdu", emoji: "👓" },
+    // { title: "Le sosie d'un Tapages", emoji: "👥" },
+    // { title: "Un selfie avec un animal", emoji: "👤🐒" },
+    // { title: "Ton magnifique vernis", emoji: "💅" },
+    // { title: "Un Tapage qui ne joue pas du bon instrument", emoji: "🎷🎺🖇️🥁" },
+    // { title: "Du munster (le fromage)", emoji: "🧀" },
+    // { title: "Deux Tapages sur un vélo", emoji: "👥🚴" },
+    // { title: "Un batiment historique", emoji: "🏦" },
+    // { title: "Un Tapage en claquettes/tongs + chaussettes", emoji: "🩴🧦" },
+    // { title: "Une paréidolie", emoji: "😀" },
+    // { title: "Le sticker Tapages dans un lieu insolite", emoji: "🧐" },
+    // { title: "Météo émotionnelle", emoji: "🌤️" },
+    // { title: "Un tire sur mon doigt", emoji: "👉🤏" },
+    // { title: "Un tout petit animal", emoji: "🪳" },
+    // { title: "Un selfie de pupitre (Sissa tu peux venir avec les Sax)", emoji: "👯‍♂️" },
+    // { title: "Un Tapage qui dort au soleil", emoji: "😴🌞" },
+
+    // 1 - 5
+    { title: "Un Zôtre fait l'hippopotame", emoji: "🦛"},
     { title: "Canuchier doublement rempli", emoji: "🍻"},
     { title: "Contrôle des slips" , emoji: "🩲👮"},
     { title: "Pieds nus", emoji: "🦶"},
     { title: "Cheveux de riche", emoji: "👨‍🦳👱‍♀️💶"},
+
+    // 6 - 10
     { title: "Des Chevaliers de la Night", emoji: "🎠🌙"},
     { title: "Zôtres en communication avec Jerry, tululu tululu", emoji: "👨‍🦲📳"},
+    { title: "Identification d'un Zeppelin" , emoji: "🚀"},
+    { title: "Zotres en pailletage" , emoji: "✨"},
+    { title: "Zotres qui complotent" , emoji: "😏"},
+
+    // 11 - 15
+    { title: "Une nouvelle boisson" , emoji: "🧫❓"},
+    { title: "Tes pieds dans les chaussures d'un autre Zôtre", emoji: "👞" },
+    { title: "Un selfie grimace avec un autre Zôtre", emoji: "🥸" },
+    { title: "Le sosie d'un Zôtre", emoji: "👥" },
+    { title: "Un Zôtre qui ne joue pas du bon instrument", emoji: "🎷🎺🖇️🥁" },
+
+    // 16 - 20
+    { title: "Le sticker Zôtres dans un lieu insolite", emoji: "🧐" },
+    { title: "Un tout petit animal", emoji: "🪳" },
+    { title: "Un selfie de pupitre", emoji: "👯‍♂️" },
+    { title: "Un Zôtre qui dort", emoji: "😴🌞" },
+    { title: "Un panneau qui fait penser aux Zôtres", emoji: "🪧" },
+
+    // 21 - 25
+    { title: "Une huître", emoji: "🦪" },
+    { title: "Du love chez les Zôtres", emoji: "❤️" },
+    { title: "Une expérience culinaire", emoji: "🍲" },
+    { title: "Un selfie avec un animal", emoji: "👤🐒" },
+    { title: "Un monument d'architecture", emoji: "🏦" },
+    
     
 ];
 
