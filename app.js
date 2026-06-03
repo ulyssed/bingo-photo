@@ -39,14 +39,16 @@ const bingoItems = [
     { title: "Canuchier doublement rempli", emoji: "🍻"},
     { title: "Contrôle des slips" , emoji: "🩲👮"},
     { title: "Pieds nus", emoji: "🦶"},
-    { title: "Cheveux de riche", emoji: "👨‍🦳👱‍♀️💶"},
+    // { title: "Cheveux de riche", emoji: "👨‍🦳👱‍♀️💶"},
+    { title: "Un CD Zôtres en majesté", emoji: "💿"},
 
     // 6 - 10
     { title: "Des Chevaliers de la Night", emoji: "🎠🌙"},
     { title: "Zôtres en communication avec Jerry, tululu tululu", emoji: "👨‍🦲📳"},
     { title: "Identification d'un Zeppelin" , emoji: "🚀"},
     { title: "Zotres en pailletage" , emoji: "✨"},
-    { title: "Zotres qui complotent" , emoji: "😏"},
+    // { title: "Zotres qui complotent" , emoji: "😏"},
+    { titre: "Moment cultivation Zotres", emoji: "🤓"},
 
     // 11 - 15
     { title: "Une nouvelle boisson" , emoji: "🧫❓"},
