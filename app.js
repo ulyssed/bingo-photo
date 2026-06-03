@@ -48,7 +48,7 @@ const bingoItems = [
     { title: "Identification d'un Zeppelin" , emoji: "🚀" },
     { title: "Zotres en pailletage" , emoji: "✨" },
     // { title: "Zotres qui complotent" , emoji: "😏"},
-    { titre: "Moment culture", emoji: "📖" },
+    { title: "Moment culture" , emoji: "📖"},
 
     // 11 - 15
     { title: "Une nouvelle boisson" , emoji: "🧫❓" },
