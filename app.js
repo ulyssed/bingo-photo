@@ -39,7 +39,6 @@ const bingoItems = [
     { title: "Canuchier doublement rempli", emoji: "🍻" },
     { title: "Contrôle des slips" , emoji: "🩲👮" },
     { title: "Pieds nus", emoji: "🦶" },
-    // { title: "Cheveux de riche", emoji: "👨‍🦳👱‍♀️💶"},
     { title: "Mise en scène du CD Zôtres", emoji: "💿" },
 
     // 6 - 10
@@ -47,8 +46,7 @@ const bingoItems = [
     { title: "Zôtres en communication avec Jerry, tululu tululu", emoji: "👨‍🦲📳" },
     { title: "Identification d'un Zeppelin" , emoji: "🚀" },
     { title: "Zotres en pailletage" , emoji: "✨" },
-    // { title: "Zotres qui complotent" , emoji: "😏"},
-    { title: "Moment culture" , emoji: "📖"},
+    { title: "Moment culture ou culturisme" , emoji: "📖💪"},
 
     // 11 - 15
     { title: "Une nouvelle boisson" , emoji: "🧫❓" },
@@ -59,8 +57,8 @@ const bingoItems = [
 
     // 16 - 20
     { title: "Le sticker Zôtres dans un lieu insolite", emoji: "🧐" },
-    { title: "Un tout petit animal", emoji: "🪳" },
-    { title: "Un selfie de pupitre", emoji: "👯‍♂️" },
+    { title: "Un paquet de chips autrichien", emoji: "🍘" },
+    { title: "Un Zôtre qui fait une action troubadour", emoji: "🤹‍♂️" },
     { title: "Un Zôtre qui dort", emoji: "😴🌞" },
     { title: "Un panneau qui fait penser aux Zôtres", emoji: "🪧" },
 
@@ -68,9 +66,8 @@ const bingoItems = [
     { title: "Une huître", emoji: "🦪" },
     { title: "Du love chez les Zôtres", emoji: "❤️" },
     { title: "Une expérience culinaire", emoji: "🍲" },
-    { title: "Un selfie avec un animal", emoji: "👤🐒" },
+    { title: "Un Zôtre qui fait du sport ", emoji: "🥎🏏🏋🏼" },
     { title: "Un monument d'architecture", emoji: "🏦" },
-    
     
 ];
 
