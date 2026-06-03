@@ -35,23 +35,23 @@ const bingoItems = [
     // { title: "Un Tapage qui dort au soleil", emoji: "😴🌞" },
 
     // 1 - 5
-    { title: "Un Zôtre fait l'hippopotame", emoji: "🦛"},
-    { title: "Canuchier doublement rempli", emoji: "🍻"},
-    { title: "Contrôle des slips" , emoji: "🩲👮"},
-    { title: "Pieds nus", emoji: "🦶"},
+    { title: "Un Zôtre fait l'hippopotame", emoji: "🦛" },
+    { title: "Canuchier doublement rempli", emoji: "🍻" },
+    { title: "Contrôle des slips" , emoji: "🩲👮" },
+    { title: "Pieds nus", emoji: "🦶" },
     // { title: "Cheveux de riche", emoji: "👨‍🦳👱‍♀️💶"},
-    { title: "Un CD Zôtres en majesté", emoji: "💿"},
+    { title: "Un CD Zôtres en majesté", emoji: "💿" },
 
     // 6 - 10
-    { title: "Des Chevaliers de la Night", emoji: "🎠🌙"},
-    { title: "Zôtres en communication avec Jerry, tululu tululu", emoji: "👨‍🦲📳"},
-    { title: "Identification d'un Zeppelin" , emoji: "🚀"},
-    { title: "Zotres en pailletage" , emoji: "✨"},
+    { title: "Des Chevaliers de la Night", emoji: "🎠🌙" },
+    { title: "Zôtres en communication avec Jerry, tululu tululu", emoji: "👨‍🦲📳" },
+    { title: "Identification d'un Zeppelin" , emoji: "🚀" },
+    { title: "Zotres en pailletage" , emoji: "✨" },
     // { title: "Zotres qui complotent" , emoji: "😏"},
-    { titre: "Moment culture/culturisme Zôtres", emoji: "🤓"},
+    { titre: "Moment culture/culturisme", emoji: "🤓" },
 
     // 11 - 15
-    { title: "Une nouvelle boisson" , emoji: "🧫❓"},
+    { title: "Une nouvelle boisson" , emoji: "🧫❓" },
     { title: "Tes pieds dans les chaussures d'un autre Zôtre", emoji: "👞" },
     { title: "Un selfie grimace avec un autre Zôtre", emoji: "🥸" },
     { title: "Le sosie d'un Zôtre", emoji: "👥" },
