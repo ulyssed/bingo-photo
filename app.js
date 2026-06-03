@@ -47,8 +47,8 @@ const bingoItems = [
     { title: "Zôtres en communication avec Jerry, tululu tululu", emoji: "👨‍🦲📳" },
     { title: "Identification d'un Zeppelin" , emoji: "🚀" },
     { title: "Zotres en pailletage" , emoji: "✨" },
-    // { title: "Zotres qui complotent" , emoji: "😏"},
-    { titre: "Moment culture/culturisme", emoji: "🤓" },
+    { title: "Zotres qui complotent" , emoji: "😏"},
+    // { titre: "Moment culture/culturisme", emoji: "🤓" },
 
     // 11 - 15
     { title: "Une nouvelle boisson" , emoji: "🧫❓" },
